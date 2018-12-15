@@ -21,8 +21,8 @@ void bfs(int source, map <int,vector<int> > adj) {
 }
 
 int main(){
-	freopen("Network Input.txt","r",stdin);
-	//freopen("Network Output.txt","w",stdout);
+	freopen("UVA 336 Input.txt","r",stdin);
+	freopen("UVA 336 Output.txt","w",stdout);
     int level,a,b,Cases=0;
     while(scanf("%d",&level) && level){
              map <int,vector<int> > adj;
